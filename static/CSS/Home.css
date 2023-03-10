@@ -1,0 +1,7083 @@
+html {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+*::before,
+*::after {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    min-height: 100vh;
+    /* background: rgb(136 211 241 / 33%); */
+    background: #9aedf666;
+    /* background: linear-gradient(270deg, rgba(216, 210, 210, 0.397), rgba(163, 165, 163, 0.527), rgba(109, 220, 228, 0.438)); */
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000000ab;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 80%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid rgb(1, 97, 1);
+    border-radius: 4px;
+    box-shadow: 0px 12px 20px 2px black;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+input[type=submit]:hover {
+    background-color: #216824;
+}
+
+
+
+/*<--------------------------Home Page Styling------------------->*/
+
+.notice-tab {
+    width: 30%;
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: #f7f5f5;
+}
+
+.notice-tab button {
+    /* border: 2px solid red; */
+    box-shadow: 0px 4px 9px 5px black;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-size: 3vw;
+    border-radius: 12px;
+    background: rgb(0 255 200 / 45%);
+}
+
+.courseallotment-tab {
+    width: 30%;
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: #f7f5f5;
+}
+
+.courseallotment-tab button {
+    /* border: 2px solid red; */
+    box-shadow: 0px 4px 9px 5px black;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-size: 3vw;
+    border-radius: 12px;
+    background: rgb(0 255 200 / 45%);
+}
+
+.time-table-tab {
+    width: 30%;
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: #f7f5f5;
+}
+
+.time-table-tab button {
+    /* border: 2px solid red; */
+    box-shadow: 0px 4px 9px 5px black;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-size: 3vw;
+    border-radius: 12px;
+    background: rgb(0 255 200 / 45%);
+}
+
+.circular-tab {
+    width: 30%;
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: #f7f5f5;
+    margin-right: 2%;
+}
+
+.circular-tab button {
+    /* border: 2px solid red; */
+    box-shadow: 0px 4px 9px 5px black;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-size: 3vw;
+    border-radius: 12px;
+    background: rgb(0 255 200 / 45%);
+}
+
+/*<------------------Header for everypage-------------------->*/
+
+#headerforeverypage {
+    display: block;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.uninamelogo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(22, 223, 223, 0.534);
+}
+
+.unilogo {
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.unilogoImage {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    margin-top: 0.1%;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.universitynameandlogo {
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.colgname {
+    border: 1px solid black;
+    background: rgba(54, 243, 110, 0.849);
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.department {
+    border: 1px solid black;
+    background: rgba(63, 151, 233, 0.425);
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*<------------------End of Header for everypage-------------------->*/
+
+/*<------------------Side bar---------------------------------> */
+
+.navbar {
+    border: 2px solid black;
+    display: flex;
+    width: 99%;
+    height: 40px;
+    padding-left: 1%;
+    align-items: center;
+    justify-content: start;
+    background: #282A35;
+}
+
+.optionLogo {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.optionLogoImage {
+    width: 3vh;
+    height: 3vh;
+}
+
+.HomeLogoImage {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.homebtn {
+    color: rgb(0, 0, 0);
+    width: 300%;
+    min-height: 38px;
+    margin-right: 1%;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.studentdetail {
+    color: black;
+    width: 100%;
+    min-height: 38px;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.studentcorner {
+    color: black;
+    width: 100%;
+    min-height: 38px;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.tabwithlogo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 15%;
+    margin: 0 1% 0 0;
+    cursor: pointer;
+}
+
+/* .sidebarchild {
+    background-color: aliceblue;
+    border: 2px solid black;
+    display: inline-flex;
+    width: 80%;
+    min-height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+} */
+
+.Logout {
+    color: black;
+    position: relative;
+    width: 10%;
+    height: 90%;
+    background-color: #ffd902;
+    border-radius: 10px;
+    left: 40%;
+    cursor: pointer;
+}
+
+/*   Student corner drop down*/
+/* .dropbtn {
+    background-color: #046daa;
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 8px;
+    font-size: 16px;
+    margin-left: 5%;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 1%;
+} */
+
+.dropdown {
+    position: fixed;
+    display: inline;
+    cursor: pointer;
+}
+
+.dropdown-content li {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #7e7b7b9d;
+    background: rgba(255, 255, 255, 0.562);
+    width: 25%;
+    margin-top: 2px;
+    padding: 1px;
+    border-radius: 8px;
+    box-shadow: -1px 5px 15px 1px rgb(0 0 0 / 27%);
+    z-index: 5;
+    cursor: pointer;
+    margin-left: 20%;
+    font-weight: bold;
+    font-size: small;
+}
+
+.dropdown-content a {
+    color: black;
+    background: rgb(255, 255, 255);
+    padding: 2%;
+    width: 100%;
+    text-decoration: none;
+    box-shadow: 1px 5px 15px 1px rgb(0 0 0 / 27%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.dropdown-content a:hover {
+    background: #62baea80;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block
+}
+
+.dropdown:hover .dropbtn {
+    cursor: pointer;
+    background-color: #ffc400d7;
+    color: black;
+}
+
+/* <----------------base for every page--------------------> */
+
+.baseforeverypage {
+    display: flex;
+}
+
+/* <----------------End base for everypage--------------------> */
+
+/* <--------------------Main Frame Pages---------------------->  */
+.mainframe {
+    border: 2px solid black;
+    margin-top: 1%;
+    padding: 1%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    min-width: 90%;
+    min-height: 60vh;
+    justify-content: space-between;
+    align-items: self-start;
+    margin-bottom: 2%;
+    background-color: #f7f5f5;
+    backdrop-filter: blur(50px);
+}
+
+
+/* <--------------------End of Main Frame Pages---------------------->  */
+
+/*<---------------------Footer part for every Page--------------------->*/
+
+#footerforeverypage {
+    display: flex;
+    position: sticky;
+    position: fixed;
+    width: 100%;
+    font-weight: bold;
+    height: 10vh;
+    background-color: #1f2c38;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.usefullinks {
+    border: 2px solid red;
+    display: flex;
+    border-radius: 5px;
+    margin: 1%;
+    width: 50%;
+    min-height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #0fdb6bd5;
+}
+
+/*<---------------------End of Footer part for every Page--------------------->*/
+
+
+
+/*<--------------Circular--------------->*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.circularsbase {
+    display: flex;
+    width: 96%;
+    min-height: 80%;
+    margin-left: 2%;
+    /* border: 2px solid black; */
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.internalcircular {
+    width: 50%;
+    margin: 1%;
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.internalcircular ul {
+    overflow: auto;
+}
+
+.internalcircular li {
+    list-style: none;
+}
+
+.internalcircularhead {
+    width: 90%;
+    font-size: 3.5vw;
+    min-height: 60px;
+    background-color: rgba(19, 235, 235, 0.788);
+    border-radius: 10px;
+    display: flex;
+    height: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgba(92, 91, 91, 0.5);
+}
+
+.extrnalcircular {
+    width: 50%;
+    margin: 1% 1% 1% 0%;
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.extrnalcircular li {
+    list-style: none;
+}
+
+.externalcircularhead {
+    width: 90%;
+    margin-bottom: 1%;
+    min-height: 60px;
+    font-size: 3.5vw;
+    background-color: rgba(19, 235, 235, 0.788);
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(92, 91, 91, 0.5);
+}
+
+hr {
+    border: 1px solid rgb(117, 116, 116);
+}
+
+.circulartagdetailing {
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 97%;
+    min-height: 35px;
+    text-align: center;
+    background: rgba(15, 235, 132, 0.589);
+    margin: 1%;
+}
+
+a:-webkit-any-link {
+    color: black;
+    text-decoration: none;
+}
+
+/* .list-detailing {} */
+
+/*<--------------End Circular--------------->*/
+
+
+
+
+/*<-------------------------------------------Notices-------------------------------------->*/
+
+.subtabsNotice {
+    /* border: 2px solid black; */
+    display: flex;
+    width: 98%;
+    min-height: 450px;
+    max-height: 600px;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.departmentnotices {
+    background: #dbdbdb54;
+    padding: 3px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 45%;
+    margin: 0 1% 1% 1%;
+    max-height: 99%;
+    overflow: auto;
+}
+
+.departmentrelatedNoticehead {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 30.3%;
+    height: 15%;
+    font-size: 30px;
+    border: 2px solid black;
+    background: #1d1e25;
+    color: white;
+    border-radius: 7px;
+    margin: -5px;
+}
+
+.placementrelatedNotice {
+    width: 45%;
+    background: #dbdbdb54;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 3px;
+    border-radius: 10px;
+    margin: 0% 1% 1% 0;
+    max-height: 99%;
+    overflow: auto;
+}
+
+.placementrelatedNoticehead {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 30.3%;
+    height: 15%;
+    font-size: 30px;
+    border: 2px solid black;
+    background: #1d1e25;
+    color: white;
+    border-radius: 7px;
+    margin: -5px;
+}
+
+hr {
+    position: relative;
+    margin-top: 2%;
+    border: none;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.377);
+    box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.637);
+    margin-bottom: 5%;
+}
+
+.resultrelatedNotices {
+    width: 45%;
+    /* margin-top: 1%; */
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #dbdbdb54;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 3px;
+    border-radius: 10px;
+    margin: 0% 1% 1% 0;
+    max-height: 99%;
+    overflow: auto;
+}
+
+.resultofplacementNoticehead {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 30.3%;
+    height: 15%;
+    font-size: 30px;
+    border: 2px solid black;
+    background: #1d1e25;
+    color: white;
+    border-radius: 7px;
+    margin: -5px;
+}
+
+
+.subclassofnotice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 4vh;
+    font-size: x-large;
+    margin: 5px;
+    border: 1px solid rgba(18, 107, 110, 0.61);
+    background: linear-gradient(45deg, rgb(197, 194, 194), rgba(153, 241, 227, 0.589), rgb(249, 249, 250));
+    border-radius: 10px;
+}
+
+.detailing-of-notices {
+    display: block;
+    margin-top: 30%;
+}
+
+/*<-------------------------------media changes  2649px------------------->*/
+/*<-------------------------------media changes  2649px------------------->*/
+@media only screen and (max-width: 2649px) {
+    html {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    *::before,
+    *::after {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: 'Times New Roman';
+        min-height: 100vh;
+        /* background: rgb(136 211 241 / 33%); */
+        background: #9aedf666;
+        /* background: linear-gradient(270deg, rgba(216, 210, 210, 0.397), rgba(163, 165, 163, 0.527), rgba(109, 220, 228, 0.438)); */
+    }
+
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #000000ab;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 80%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px solid rgb(1, 97, 1);
+        border-radius: 4px;
+        box-shadow: 0px 12px 20px 2px black;
+        cursor: pointer;
+        margin-left: 10%;
+    }
+
+    input[type=submit]:hover {
+        background-color: #216824;
+    }
+
+
+    /*<------------------Header for everypage-------------------->*/
+
+    #headerforeverypage {
+        display: block;
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .uninamelogo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(22, 223, 223, 0.534);
+    }
+
+    .unilogo {
+        margin-left: 20px;
+        margin-top: 2px;
+    }
+
+    .unilogoImage {
+        border: 1px solid black;
+        height: 50px;
+        width: 50px;
+        margin-top: 0.1%;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .universitynameandlogo {
+        align-items: center;
+        font-size: 40px;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colgname {
+        border: 1px solid black;
+        background: rgba(54, 243, 110, 0.849);
+        align-items: center;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .department {
+        border: 1px solid black;
+        background: rgba(63, 151, 233, 0.425);
+        align-items: center;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*<------------------End of Header for everypage-------------------->*/
+
+    /*<------------------Side bar---------------------------------> */
+
+    .navbar {
+        border: 2px solid black;
+        display: flex;
+        width: 99%;
+        height: 40px;
+        padding-left: 1%;
+        align-items: center;
+        justify-content: start;
+        background: #282A35;
+    }
+
+    .optionLogo {
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+    .optionLogoImage {
+        width: 3vh;
+        height: 3vh;
+    }
+
+    .HomeLogoImage {
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .homebtn {
+        color: rgb(0, 0, 0);
+        width: 520%;
+        min-height: 38px;
+        margin-right: 1%;
+        border-radius: 10px;
+        font-size: large;
+        cursor: pointer;
+    }
+
+    .studentdetail {
+        color: black;
+        width: 100%;
+        min-height: 38px;
+        border-radius: 10px;
+        font-size: large;
+        cursor: pointer;
+    }
+
+    .studentcorner {
+        color: black;
+        width: 100%;
+        min-height: 38px;
+        border-radius: 10px;
+        font-size: large;
+        cursor: pointer;
+    }
+
+    .tabwithlogo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 15%;
+        margin: 0 1% 0 0;
+        cursor: pointer;
+    }
+
+    /* .sidebarchild {
+        background-color: aliceblue;
+        border: 2px solid black;
+        display: inline-flex;
+        width: 80%;
+        min-height: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    } */
+
+    .Logout {
+        color: black;
+        position: relative;
+        width: 10%;
+        height: 90%;
+        background-color: #ffd902;
+        border-radius: 10px;
+        left: 40%;
+        cursor: pointer;
+    }
+
+    /*   Student corner drop down*/
+    /* .dropbtn {
+        background-color: #046daa;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 8px;
+        font-size: 16px;
+        margin-left: 5%;
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    } */
+
+    .dropdown {
+        position: fixed;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .dropdown-content li {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #7e7b7b9d;
+        background: rgba(255, 255, 255, 0.562);
+        width: 10%;
+        margin-top: 2px;
+        padding: 1px;
+        border-radius: 8px;
+        box-shadow: -1px 5px 15px 1px rgb(0 0 0 / 27%);
+        z-index: 5;
+        cursor: pointer;
+        margin-left: 20%;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .dropdown-content a {
+        color: black;
+        background: rgb(255, 255, 255);
+        padding: 2%;
+        width: 100%;
+        text-decoration: none;
+        box-shadow: 1px 5px 15px 1px rgb(0 0 0 / 27%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .dropdown-content a:hover {
+        background: #62baea80;
+        cursor: pointer;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block
+    }
+
+    .dropdown:hover .dropbtn {
+        cursor: pointer;
+        background-color: #ffc400d7;
+        color: black;
+    }
+
+    /* <----------------base for every page--------------------> */
+
+    .baseforeverypage {
+        display: flex;
+    }
+
+    /* <----------------End base for everypage--------------------> */
+
+    /* <--------------------Main Frame Pages---------------------->  */
+    .mainframe {
+        border: 2px solid black;
+        margin-top: 1%;
+        padding: 1%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        margin-bottom: 2%;
+        align-items: self-start;
+        background-color: #f7f5f5;
+        backdrop-filter: blur(50px);
+    }
+
+
+    /* <--------------------End of Main Frame Pages---------------------->  */
+
+    /*<---------------------Footer part for every Page--------------------->*/
+
+    #footerforeverypage {
+        display: flex;
+        position: sticky;
+        position: fixed;
+        position: static;
+        width: 100%;
+        font-weight: bold;
+        height: 10vh;
+        background-color: #1f2c38;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usefullinks {
+        border: 2px solid red;
+        display: flex;
+        border-radius: 5px;
+        margin: 1%;
+        width: 50%;
+        min-height: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: #0fdb6bd5;
+    }
+
+    /*<---------------------End of Footer part for every Page--------------------->*/
+
+
+
+    /*<--------------Circular--------------->*/
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .circularsbase {
+        display: flex;
+        width: 96%;
+        min-height: 80%;
+        margin-left: 2%;
+        /* border: 2px solid black; */
+        border-radius: 12px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .internalcircular {
+        width: 50%;
+        margin: 1%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+        list-style: none;
+    }
+
+    .internalcircular li {
+        list-style: none;
+    }
+
+    .internalcircularhead {
+        width: 90%;
+        font-size: 3.5vw;
+        min-height: 60px;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        display: flex;
+        height: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    .extrnalcircular {
+        width: 50%;
+        margin: 1% 1% 1% 0%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .extrnalcircular li {
+        list-style: none;
+    }
+
+    .externalcircularhead {
+        width: 90%;
+        margin-bottom: 1%;
+        min-height: 60px;
+        font-size: 3.5vw;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        height: 20%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    hr {
+        border: 1px solid rgb(117, 116, 116);
+    }
+
+    .circulartagdetailing {
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 97%;
+        min-height: 35px;
+        text-align: center;
+        background: rgba(15, 235, 132, 0.589);
+        margin: 1%;
+    }
+
+    a:-webkit-any-link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .list-detailing {}
+
+    /*<--------------End Circular--------------->*/
+    .subtabsNotice {
+        /* border: 2px solid black; */
+        display: flex;
+        width: 98%;
+        min-height: 450px;
+        max-height: 600px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .departmentnotices {
+        background: #dbdbdb54;
+        padding: 3px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        width: 45%;
+        margin: 0 1% 1% 1%;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .departmentrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 15%;
+        font-size: 30px;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    .placementrelatedNotice {
+        width: 45%;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .placementrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 15%;
+        font-size: 30px;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    hr {
+        position: relative;
+        margin-top: 2%;
+        border: none;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.377);
+        box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.637);
+        margin-bottom: 5%;
+    }
+
+    .resultrelatedNotices {
+        width: 45%;
+        /* margin-top: 1%; */
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .resultofplacementNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 15%;
+        font-size: 30px;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+
+    .subclassofnotice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 4vh;
+        font-size: x-large;
+        margin: 5px;
+        border: 1px solid rgba(18, 107, 110, 0.61);
+        background: linear-gradient(45deg, rgb(197, 194, 194), rgba(153, 241, 227, 0.589), rgb(249, 249, 250));
+        border-radius: 10px;
+    }
+
+    .detailing-of-notices {
+        display: block;
+        margin-top: 16%;
+    }
+}
+
+/*<-------------------------------media changes  1920px------------------------>*/
+/*<-------------------------------media changes  1920px------------------------>*/
+@media only screen and (max-width: 1920px) {
+
+    html {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    *::before,
+    *::after {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: 'Times New Roman';
+        min-height: 100vh;
+        /* background: rgb(136 211 241 / 33%); */
+        background: #9aedf666;
+        /* background: linear-gradient(270deg, rgba(216, 210, 210, 0.397), rgba(163, 165, 163, 0.527), rgba(109, 220, 228, 0.438)); */
+    }
+
+    a:active {
+        color: yellow;
+    }
+
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #000000ab;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 80%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px solid rgb(1, 97, 1);
+        border-radius: 4px;
+        box-shadow: 0px 12px 20px 2px black;
+        cursor: pointer;
+        margin-left: 10%;
+    }
+
+    input[type=submit]:hover {
+        background-color: #216824;
+    }
+
+
+    /*<------------------Header for everypage-------------------->*/
+
+    #headerforeverypage {
+        display: block;
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .uninamelogo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(22, 223, 223, 0.534);
+    }
+
+    .unilogo {
+        margin-left: 20px;
+        margin-top: 2px;
+    }
+
+    .unilogoImage {
+        border: 1px solid black;
+        height: 50px;
+        width: 50px;
+        margin-top: 0.1%;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .universitynameandlogo {
+        align-items: center;
+        font-size: 40px;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colgname {
+        border: 1px solid black;
+        background: rgba(54, 243, 110, 0.849);
+        align-items: center;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .department {
+        border: 1px solid black;
+        background: rgba(63, 151, 233, 0.425);
+        align-items: center;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*<------------------End of Header for everypage-------------------->*/
+
+    /*<------------------Side bar---------------------------------> */
+
+    .navbar {
+        border: 2px solid black;
+        display: flex;
+        width: 99%;
+        height: 40px;
+        padding-left: 1%;
+        align-items: center;
+        justify-content: start;
+        background: #282A35;
+    }
+
+    .optionLogo {
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+    .optionLogoImage {
+        width: 3vh;
+        height: 3vh;
+    }
+
+    .HomeLogoImage {
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .homebtn {
+        color: rgb(0, 0, 0);
+        width: 300%;
+        min-height: 38px;
+        margin-right: 1%;
+        border-radius: 10px;
+        font-size: large;
+        cursor: pointer;
+    }
+
+    .studentdetail {
+        color: black;
+        width: 100%;
+        min-height: 38px;
+        border-radius: 10px;
+        font-size: large;
+        cursor: pointer;
+    }
+
+    .studentcorner {
+        color: black;
+        width: 100%;
+        min-height: 38px;
+        border-radius: 10px;
+        font-size: large;
+        cursor: pointer;
+    }
+
+    .tabwithlogo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 15%;
+        margin: 0 1% 0 0;
+        cursor: pointer;
+    }
+
+    /* .sidebarchild {
+        background-color: aliceblue;
+        border: 2px solid black;
+        display: inline-flex;
+        width: 80%;
+        min-height: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    } */
+
+    .Logout {
+        color: black;
+        position: relative;
+        width: 10%;
+        height: 90%;
+        background-color: #ffd902;
+        border-radius: 10px;
+        left: 40%;
+        cursor: pointer;
+    }
+
+    /*   Student corner drop down*/
+    /* .dropbtn {
+        background-color: #046daa;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 8px;
+        font-size: 16px;
+        margin-left: 5%;
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    } */
+
+    .dropdown {
+        position: fixed;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .dropdown-content li {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #7e7b7b9d;
+        background: rgba(255, 255, 255, 0.562);
+        width: 10%;
+        margin-top: 2px;
+        padding: 1px;
+        border-radius: 8px;
+        box-shadow: -1px 5px 15px 1px rgb(0 0 0 / 27%);
+        z-index: 5;
+        cursor: pointer;
+        margin-left: 20%;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .dropdown-content a {
+        color: black;
+        background: rgb(255, 255, 255);
+        padding: 2%;
+        width: 100%;
+        text-decoration: none;
+        box-shadow: 1px 5px 15px 1px rgb(0 0 0 / 27%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .dropdown-content a:hover {
+        background: #62baea80;
+        cursor: pointer;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block
+    }
+
+    .dropdown:hover .dropbtn {
+        cursor: pointer;
+        background-color: #ffc400d7;
+        color: black;
+    }
+
+    /* <----------------base for every page--------------------> */
+
+    .baseforeverypage {
+        display: flex;
+    }
+
+    /* <----------------End base for everypage--------------------> */
+
+    /* <--------------------Main Frame Pages---------------------->  */
+    .mainframe {
+        border: 2px solid black;
+        margin-top: 1%;
+        padding: 1%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        min-width: 90%;
+        justify-content: space-between;
+        align-items: self-start;
+        margin-bottom: 2%;
+        background-color: #f7f5f5;
+        backdrop-filter: blur(50px);
+    }
+
+
+    /* <--------------------End of Main Frame Pages---------------------->  */
+
+    /*<---------------------Footer part for every Page--------------------->*/
+
+    #footerforeverypage {
+        display: flex;
+        position: sticky;
+        position: fixed;
+        position: static;
+        width: 100%;
+        font-weight: bold;
+        height: 10vh;
+        background-color: #1f2c38;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usefullinks {
+        border: 2px solid red;
+        display: flex;
+        border-radius: 5px;
+        margin: 1%;
+        width: 50%;
+        min-height: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: #0fdb6bd5;
+    }
+
+    /*<---------------------End of Footer part for every Page--------------------->*/
+
+
+
+    /*<--------------Circular--------------->*/
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .circularsbase {
+        display: flex;
+        width: 96%;
+        min-height: 80%;
+        margin-left: 2%;
+        /* border: 2px solid black; */
+        border-radius: 12px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .internalcircular {
+        width: 50%;
+        margin: 1%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+        list-style: none;
+    }
+
+    .internalcircular li {
+        list-style: none;
+    }
+
+    .internalcircularhead {
+        width: 90%;
+        font-size: 3.5vw;
+        min-height: 60px;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        display: flex;
+        height: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    .extrnalcircular {
+        width: 50%;
+        margin: 1% 1% 1% 0%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .extrnalcircular li {
+        list-style: none;
+    }
+
+    .externalcircularhead {
+        width: 90%;
+        margin-bottom: 1%;
+        min-height: 60px;
+        font-size: 3.5vw;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        height: 20%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    hr {
+        border: 1px solid rgb(117, 116, 116);
+    }
+
+    .circulartagdetailing {
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 97%;
+        min-height: 35px;
+        text-align: center;
+        background: rgba(15, 235, 132, 0.589);
+        margin: 1%;
+    }
+
+    a:-webkit-any-link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .list-detailing {}
+
+    /*<--------------End Circular--------------->*/
+    .subtabsNotice {
+        /* border: 2px solid black; */
+        display: flex;
+        width: 98%;
+        min-height: 450px;
+        max-height: 600px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .departmentnotices {
+        background: #dbdbdb54;
+        padding: 3px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        width: 45%;
+        margin: 0 1% 1% 1%;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .departmentrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.5%;
+        height: 15%;
+        font-size: 30px;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    .placementrelatedNotice {
+        width: 45%;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .placementrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.5%;
+        height: 15%;
+        font-size: 30px;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    hr {
+        position: relative;
+        margin-top: 2%;
+        border: none;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.377);
+        box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.637);
+        margin-bottom: 5%;
+    }
+
+    .resultrelatedNotices {
+        width: 45%;
+        /* margin-top: 1%; */
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .resultofplacementNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.5%;
+        height: 15%;
+        font-size: 30px;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+
+    .subclassofnotice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 4vh;
+        font-size: x-large;
+        margin: 5px;
+        border: 1px solid rgba(18, 107, 110, 0.61);
+        background: linear-gradient(45deg, rgb(197, 194, 194), rgba(153, 241, 227, 0.589), rgb(249, 249, 250));
+        border-radius: 10px;
+    }
+
+    .detailing-of-notices {
+        display: block;
+        margin-top: 30%;
+    }
+
+}
+
+/*<-------------------------------media changes  1024px------------------------>*/
+/*<-------------------------------media changes  1024px------------------------>*/
+@media only screen and (max-width : 1200px) {
+    html {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    *::before,
+    *::after {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: 'Times New Roman';
+        min-height: 100vh;
+        /* background: rgb(136 211 241 / 33%); */
+        background: #9aedf666;
+        /* background: linear-gradient(270deg, rgba(216, 210, 210, 0.397), rgba(163, 165, 163, 0.527), rgba(109, 220, 228, 0.438)); */
+    }
+
+    a:active {
+        color: yellow;
+    }
+
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #000000ab;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 80%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px solid rgb(1, 97, 1);
+        border-radius: 4px;
+        box-shadow: 0px 12px 20px 2px black;
+        cursor: pointer;
+        margin-left: 10%;
+    }
+
+    input[type=submit]:hover {
+        background-color: #216824;
+    }
+
+
+    /*<------------------Header for everypage-------------------->*/
+
+    #headerforeverypage {
+        display: block;
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .uninamelogo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(22, 223, 223, 0.534);
+    }
+
+    .unilogo {
+        margin-left: 20px;
+        margin-top: 2px;
+    }
+
+    .unilogoImage {
+        border: 1px solid black;
+        height: 50px;
+        width: 50px;
+        margin-top: 0.1%;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .universitynameandlogo {
+        align-items: center;
+        font-size: 40px;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colgname {
+        border: 1px solid black;
+        background: rgba(54, 243, 110, 0.849);
+        align-items: center;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .department {
+        border: 1px solid black;
+        background: rgba(63, 151, 233, 0.425);
+        align-items: center;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*<------------------End of Header for everypage-------------------->*/
+
+    /*<------------------Side bar---------------------------------> */
+
+    .navbar {
+        border: 2px solid black;
+        display: flex;
+        width: 99%;
+        height: 40px;
+        padding-left: 1%;
+        align-items: center;
+        justify-content: start;
+        background: #282A35;
+    }
+
+    .optionLogo {
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+    .optionLogoImage {
+        width: 3vh;
+        height: 3vh;
+    }
+
+    .HomeLogoImage {
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .homebtn {
+        color: rgb(0, 0, 0);
+        width: 225%;
+        min-height: 38px;
+        margin-right: 1%;
+        border-radius: 10px;
+        font-size: large;
+        cursor: pointer;
+    }
+
+    .studentdetail {
+        color: black;
+        width: 100%;
+        min-height: 38px;
+        border-radius: 10px;
+        font-size: 1.5vw;
+        cursor: pointer;
+    }
+
+    .studentcorner {
+        color: black;
+        width: 100%;
+        min-height: 38px;
+        border-radius: 10px;
+        font-size: 1.5vw;
+        cursor: pointer;
+    }
+
+    .tabwithlogo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 15%;
+        margin: 0 1% 0 0;
+        cursor: pointer;
+    }
+
+    /* .sidebarchild {
+        background-color: aliceblue;
+        border: 2px solid black;
+        display: inline-flex;
+        width: 80%;
+        min-height: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    } */
+
+    .Logout {
+        color: black;
+        position: relative;
+        width: 10%;
+        height: 90%;
+        background-color: #ffd902;
+        border-radius: 10px;
+        left: 40%;
+        cursor: pointer;
+    }
+
+    /*   Student corner drop down*/
+    /* .dropbtn {
+        background-color: #046daa;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 8px;
+        font-size: 16px;
+        margin-left: 5%;
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    } */
+
+    .dropdown {
+        position: fixed;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .dropdown-content li {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #7e7b7b9d;
+        background: rgba(255, 255, 255, 0.562);
+        width: 12%;
+        margin-top: 2px;
+        padding: 1px;
+        border-radius: 8px;
+        box-shadow: -1px 5px 15px 1px rgb(0 0 0 / 27%);
+        z-index: 5;
+        cursor: pointer;
+        margin-left: 20%;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .dropdown-content a {
+        color: black;
+        background: rgb(255, 255, 255);
+        padding: 2%;
+        width: 100%;
+        text-decoration: none;
+        box-shadow: 1px 5px 15px 1px rgb(0 0 0 / 27%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .dropdown-content a:hover {
+        background: #62baea80;
+        cursor: pointer;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block
+    }
+
+    .dropdown:hover .dropbtn {
+        cursor: pointer;
+        background-color: #ffc400d7;
+        color: black;
+    }
+
+    /* <----------------base for every page--------------------> */
+
+    .baseforeverypage {
+        display: flex;
+    }
+
+    /* <----------------End base for everypage--------------------> */
+
+    /* <--------------------Main Frame Pages---------------------->  */
+    .mainframe {
+        border: 2px solid black;
+        margin-top: 1%;
+        padding: 1%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        min-width: 90%;
+        height: 60%;
+        align-items: self-start;
+        justify-content: space-between;
+        margin-bottom: 2%;
+        background-color: #f7f5f5;
+        backdrop-filter: blur(50px);
+    }
+
+
+    /* <--------------------End of Main Frame Pages---------------------->  */
+
+    /*<---------------------Footer part for every Page--------------------->*/
+
+    #footerforeverypage {
+        display: flex;
+        position: sticky;
+        position: fixed;
+        position: static;
+        width: 100%;
+        font-weight: bold;
+        height: 10vh;
+        background-color: #1f2c38;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usefullinks {
+        border: 2px solid red;
+        display: flex;
+        border-radius: 5px;
+        margin: 1%;
+        width: 50%;
+        min-height: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: #0fdb6bd5;
+    }
+
+    /*<---------------------End of Footer part for every Page--------------------->*/
+
+
+
+    /*<--------------Circular--------------->*/
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .circularsbase {
+        display: flex;
+        width: 96%;
+        min-height: 80%;
+        margin-left: 2%;
+        /* border: 2px solid black; */
+        border-radius: 12px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .internalcircular {
+        width: 50%;
+        margin: 1%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+        list-style: none;
+    }
+
+    .internalcircular li {
+        list-style: none;
+    }
+
+    .internalcircularhead {
+        width: 90%;
+        font-size: 3.5vw;
+        min-height: 60px;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        display: flex;
+        height: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    .extrnalcircular {
+        width: 50%;
+        margin: 1% 1% 1% 0%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .extrnalcircular li {
+        list-style: none;
+    }
+
+    .externalcircularhead {
+        width: 90%;
+        margin-bottom: 1%;
+        min-height: 60px;
+        font-size: 3.5vw;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        height: 20%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    hr {
+        border: 1px solid rgb(117, 116, 116);
+    }
+
+    .circulartagdetailing {
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 97%;
+        min-height: 35px;
+        text-align: center;
+        background: rgba(15, 235, 132, 0.589);
+        margin: 1%;
+    }
+
+    a:-webkit-any-link {
+        color: black;
+        text-decoration: none;
+    }
+
+    /* .list-detailing {} */
+
+    /*<--------------End Circular--------------->*/
+
+
+
+
+    /*<-------------------------------------------Notices-------------------------------------->*/
+
+    .subtabsNotice {
+        /* border: 2px solid black; */
+        display: flex;
+        width: 98%;
+        min-height: 450px;
+        max-height: 600px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .departmentnotices {
+        background: #dbdbdb54;
+        padding: 3px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        width: 45%;
+        margin: 0 1% 1% 1%;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .departmentrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 15%;
+        font-size: 30px;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    .placementrelatedNotice {
+        width: 45%;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .placementrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 15%;
+        font-size: 30px;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    hr {
+        position: relative;
+        margin-top: 2%;
+        border: none;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.377);
+        box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.637);
+        margin-bottom: 5%;
+    }
+
+    .resultrelatedNotices {
+        width: 45%;
+        /* margin-top: 1%; */
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .resultofplacementNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 15%;
+        font-size: 30px;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+
+    .subclassofnotice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 4vh;
+        font-size: x-large;
+        margin: 5px;
+        border: 1px solid rgba(18, 107, 110, 0.61);
+        background: linear-gradient(45deg, rgb(197, 194, 194), rgba(153, 241, 227, 0.589), rgb(249, 249, 250));
+        border-radius: 10px;
+    }
+
+    .detailing-of-notices {
+        display: block;
+        margin-top: 38%;
+    }
+}
+
+/*<-------------------------------media changes  913px------------------------>*/
+/*<-------------------------------media changes  913px------------------------>*/
+@media only screen and (max-width: 913px) {
+
+    html {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    *::before,
+    *::after {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: 'Times New Roman';
+        min-height: 100vh;
+        /* background: rgb(136 211 241 / 33%); */
+        background: #9aedf666;
+        /* background: linear-gradient(270deg, rgba(216, 210, 210, 0.397), rgba(163, 165, 163, 0.527), rgba(109, 220, 228, 0.438)); */
+    }
+
+    a:active {
+        color: yellow;
+    }
+
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #000000ab;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 80%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px solid rgb(1, 97, 1);
+        border-radius: 4px;
+        box-shadow: 0px 12px 20px 2px black;
+        cursor: pointer;
+        margin-left: 10%;
+    }
+
+    input[type=submit]:hover {
+        background-color: #216824;
+    }
+
+
+    /*<------------------Header for everypage-------------------->*/
+
+    #headerforeverypage {
+        display: block;
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .uninamelogo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(22, 223, 223, 0.534);
+    }
+
+    .unilogo {
+        margin-left: 20px;
+        margin-top: 2px;
+    }
+
+    .unilogoImage {
+        border: 1px solid black;
+        height: 25px;
+        width: 25px;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .universitynameandlogo {
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colgname {
+        border: 1px solid black;
+        background: rgba(54, 243, 110, 0.849);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .department {
+        border: 1px solid black;
+        background: rgba(63, 151, 233, 0.425);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*<------------------End of Header for everypage-------------------->*/
+
+    /*<------------------Side bar---------------------------------> */
+
+    .navbar {
+        border: 2px solid black;
+        display: flex;
+        width: 99%;
+        height: 40px;
+        padding-left: 1%;
+        align-items: center;
+        justify-content: start;
+        background: #282A35;
+    }
+
+    .optionLogo {
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+    .optionLogoImage {
+        width: 3vh;
+        height: 3vh;
+    }
+
+    .HomeLogoImage {
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .homebtn {
+        color: rgb(0, 0, 0);
+        width: 260%;
+        min-height: 38px;
+        margin-right: 1%;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .studentdetail {
+        color: black;
+        width: 100%;
+        height: 37px;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .studentcorner {
+        color: black;
+        width: 100%;
+        height: 37px;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .tabwithlogo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 20%;
+        margin: 0 1% 0 0;
+        cursor: pointer;
+    }
+
+    /* .sidebarchild {
+        background-color: aliceblue;
+        border: 2px solid black;
+        display: inline-flex;
+        width: 80%;
+        min-height: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    } */
+
+    .Logout {
+        color: black;
+        position: relative;
+        width: 10%;
+        height: 90%;
+        background-color: #ffd902;
+        border-radius: 10px;
+        left: 25%;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    /*   Student corner drop down*/
+    /* .dropbtn {
+        background-color: #046daa;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 8px;
+        font-size: 16px;
+        margin-left: 5%;
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    } */
+
+    .dropdown {
+        position: fixed;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .dropdown-content li {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #7e7b7b9d;
+        background: rgba(255, 255, 255, 0.562);
+        width: 25%;
+        margin-top: 2px;
+        padding: 1px;
+        border-radius: 8px;
+        box-shadow: -1px 5px 15px 1px rgb(0 0 0 / 27%);
+        z-index: 5;
+        cursor: pointer;
+        margin-left: 20%;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .dropdown-content a {
+        color: black;
+        background: rgb(255, 255, 255);
+        padding: 2%;
+        width: 100%;
+        text-decoration: none;
+        box-shadow: 1px 5px 15px 1px rgb(0 0 0 / 27%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .dropdown-content a:hover {
+        background: #62baea80;
+        cursor: pointer;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block
+    }
+
+    .dropdown:hover .dropbtn {
+        cursor: pointer;
+        background-color: #ffc400d7;
+        color: black;
+    }
+
+    /* <----------------base for every page--------------------> */
+
+    .baseforeverypage {
+        display: flex;
+    }
+
+    /* <----------------End base for everypage--------------------> */
+
+    /* <--------------------Main Frame Pages---------------------->  */
+    .mainframe {
+        border: 2px solid black;
+        margin-top: 1%;
+        padding: 1%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        min-width: 90%;
+        height: 60%;
+        justify-content: space-between;
+        align-items: self-start;
+        margin-bottom: 2%;
+        background-color: #f7f5f5;
+        backdrop-filter: blur(50px);
+    }
+
+
+    /* <--------------------End of Main Frame Pages---------------------->  */
+
+    /*<---------------------Footer part for every Page--------------------->*/
+
+    #footerforeverypage {
+        display: flex;
+        position: sticky;
+        position: fixed;
+        position: static;
+        width: 100%;
+        font-weight: bold;
+        height: 10vh;
+        background-color: #1f2c38;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        font-size: 3.5vw;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usefullinks {
+        border: 2px solid red;
+        display: flex;
+        border-radius: 5px;
+        margin: 1%;
+        width: 50%;
+        min-height: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: #0fdb6bd5;
+    }
+
+    /*<---------------------End of Footer part for every Page--------------------->*/
+
+
+
+    /*<--------------Circular--------------->*/
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .circularsbase {
+        display: flex;
+        width: 96%;
+        min-height: 80%;
+        margin-left: 2%;
+        /* border: 2px solid black; */
+        border-radius: 12px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .internalcircular {
+        width: 50%;
+        margin: 1%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+        list-style: none;
+    }
+
+    .internalcircular li {
+        list-style: none;
+    }
+
+    .internalcircularhead {
+        width: 90%;
+        font-size: 3.5vw;
+        min-height: 60px;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        display: flex;
+        height: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    .extrnalcircular {
+        width: 50%;
+        margin: 1% 1% 1% 0%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .extrnalcircular li {
+        list-style: none;
+    }
+
+    .externalcircularhead {
+        width: 90%;
+        margin-bottom: 1%;
+        min-height: 60px;
+        font-size: 3.5vw;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        height: 20%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    hr {
+        border: 1px solid rgb(117, 116, 116);
+    }
+
+    .circulartagdetailing {
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 97%;
+        min-height: 35px;
+        text-align: center;
+        background: rgba(15, 235, 132, 0.589);
+        margin: 1%;
+    }
+
+    a:-webkit-any-link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .list-detailing {}
+
+    /*<--------------End Circular--------------->*/
+    .subtabsNotice {
+        /* border: 2px solid black; */
+        display: flex;
+        width: 98%;
+        min-height: 450px;
+        max-height: 600px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .departmentnotices {
+        background: #dbdbdb54;
+        padding: 3px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        width: 45%;
+        margin: 0 1% 1% 1%;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .departmentrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        font-size: 4vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    .placementrelatedNotice {
+        width: 45%;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .placementrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        font-size: 3.8vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    hr {
+        position: relative;
+        margin-top: 2%;
+        border: none;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.377);
+        box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.637);
+        margin-bottom: 5%;
+    }
+
+    .resultrelatedNotices {
+        width: 45%;
+        /* margin-top: 1%; */
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .resultofplacementNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        text-align: center;
+        font-size: 3.8vw;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+
+    .subclassofnotice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 6%;
+        text-align: center;
+        font-size: 2.5vw;
+        margin: 5px;
+        border: 1px solid rgba(18, 107, 110, 0.61);
+        background: linear-gradient(45deg, rgb(197, 194, 194), rgba(153, 241, 227, 0.589), rgb(249, 249, 250));
+        border-radius: 10px;
+    }
+
+    .detailing-of-notices {
+        display: block;
+        margin-top: 33%;
+    }
+
+}
+
+/*<-------------------------------media changes  820px------------------------>*/
+/*<-------------------------------media changes  820px------------------------>*/
+@media only screen and (max-width: 820px) {
+
+    html {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    *::before,
+    *::after {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: 'Times New Roman';
+        min-height: 100vh;
+        /* background: rgb(136 211 241 / 33%); */
+        background: #9aedf666;
+        /* background: linear-gradient(270deg, rgba(216, 210, 210, 0.397), rgba(163, 165, 163, 0.527), rgba(109, 220, 228, 0.438)); */
+    }
+
+    a:active {
+        color: yellow;
+    }
+
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #000000ab;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 80%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px solid rgb(1, 97, 1);
+        border-radius: 4px;
+        box-shadow: 0px 12px 20px 2px black;
+        cursor: pointer;
+        margin-left: 10%;
+    }
+
+    input[type=submit]:hover {
+        background-color: #216824;
+    }
+
+
+    /*<------------------Header for everypage-------------------->*/
+
+    #headerforeverypage {
+        display: block;
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .uninamelogo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(22, 223, 223, 0.534);
+    }
+
+    .unilogo {
+        margin-left: 20px;
+        margin-top: 2px;
+    }
+
+    .unilogoImage {
+        border: 1px solid black;
+        height: 25px;
+        width: 25px;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .universitynameandlogo {
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colgname {
+        border: 1px solid black;
+        background: rgba(54, 243, 110, 0.849);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .department {
+        border: 1px solid black;
+        background: rgba(63, 151, 233, 0.425);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*<------------------End of Header for everypage-------------------->*/
+
+    /*<------------------Side bar---------------------------------> */
+
+    .navbar {
+        border: 2px solid black;
+        display: flex;
+        width: 99%;
+        height: 40px;
+        padding-left: 1%;
+        align-items: center;
+        justify-content: start;
+        background: #282A35;
+    }
+
+    .optionLogo {
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+    .optionLogoImage {
+        width: 3vh;
+        height: 3vh;
+    }
+
+    .HomeLogoImage {
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .homebtn {
+        color: rgb(0, 0, 0);
+        width: 200%;
+        min-height: 38px;
+        margin-right: 1%;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .studentdetail {
+        color: black;
+        width: 100%;
+        height: 37px;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .studentcorner {
+        color: black;
+        width: 100%;
+        height: 37px;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .tabwithlogo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 20%;
+        margin: 0 1% 0 0;
+        cursor: pointer;
+    }
+
+    /* .sidebarchild {
+        background-color: aliceblue;
+        border: 2px solid black;
+        display: inline-flex;
+        width: 80%;
+        min-height: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    } */
+
+    .Logout {
+        color: black;
+        position: relative;
+        width: 10%;
+        height: 90%;
+        background-color: #ffd902;
+        border-radius: 10px;
+        left: 25%;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    /*   Student corner drop down*/
+    /* .dropbtn {
+        background-color: #046daa;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 8px;
+        font-size: 16px;
+        margin-left: 5%;
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    } */
+
+    .dropdown {
+        position: fixed;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .dropdown-content li {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #7e7b7b9d;
+        background: rgba(255, 255, 255, 0.562);
+        width: 25%;
+        margin-top: 2px;
+        padding: 1px;
+        border-radius: 8px;
+        box-shadow: -1px 5px 15px 1px rgb(0 0 0 / 27%);
+        z-index: 5;
+        cursor: pointer;
+        margin-left: 20%;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .dropdown-content a {
+        color: black;
+        background: rgb(255, 255, 255);
+        padding: 2%;
+        width: 100%;
+        text-decoration: none;
+        box-shadow: 1px 5px 15px 1px rgb(0 0 0 / 27%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .dropdown-content a:hover {
+        background: #62baea80;
+        cursor: pointer;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block
+    }
+
+    .dropdown:hover .dropbtn {
+        cursor: pointer;
+        background-color: #ffc400d7;
+        color: black;
+    }
+
+    /* <----------------base for every page--------------------> */
+
+    .baseforeverypage {
+        display: flex;
+    }
+
+    /* <----------------End base for everypage--------------------> */
+
+    /* <--------------------Main Frame Pages---------------------->  */
+    .mainframe {
+        border: 2px solid black;
+        margin-top: 1%;
+        padding: 1%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        min-width: 90%;
+        height: 60%;
+        justify-content: space-between;
+        align-items: self-start;
+        margin-bottom: 2%;
+        background-color: #f7f5f5;
+        backdrop-filter: blur(50px);
+    }
+
+
+    /* <--------------------End of Main Frame Pages---------------------->  */
+
+    /*<---------------------Footer part for every Page--------------------->*/
+
+    #footerforeverypage {
+        display: flex;
+        position: sticky;
+        position: fixed;
+        position: static;
+        width: 100%;
+        font-weight: bold;
+        height: 10vh;
+        background-color: #1f2c38;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        font-size: 3.5vw;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usefullinks {
+        border: 2px solid red;
+        display: flex;
+        border-radius: 5px;
+        margin: 1%;
+        width: 50%;
+        min-height: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: #0fdb6bd5;
+    }
+
+    /*<---------------------End of Footer part for every Page--------------------->*/
+
+
+
+    /*<--------------Circular--------------->*/
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .circularsbase {
+        display: flex;
+        width: 96%;
+        min-height: 80%;
+        margin-left: 2%;
+        /* border: 2px solid black; */
+        border-radius: 12px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .internalcircular {
+        width: 50%;
+        margin: 1%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+        list-style: none;
+    }
+
+    .internalcircular li {
+        list-style: none;
+    }
+
+    .internalcircularhead {
+        width: 90%;
+        font-size: 3.5vw;
+        min-height: 60px;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        display: flex;
+        height: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    .extrnalcircular {
+        width: 50%;
+        margin: 1% 1% 1% 0%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .extrnalcircular li {
+        list-style: none;
+    }
+
+    .externalcircularhead {
+        width: 90%;
+        margin-bottom: 1%;
+        min-height: 60px;
+        font-size: 3.5vw;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        height: 20%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    hr {
+        border: 1px solid rgb(117, 116, 116);
+    }
+
+    .circulartagdetailing {
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 97%;
+        min-height: 35px;
+        text-align: center;
+        background: rgba(15, 235, 132, 0.589);
+        margin: 1%;
+    }
+
+    a:-webkit-any-link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .list-detailing {}
+
+    /*<--------------End Circular--------------->*/
+    .subtabsNotice {
+        /* border: 2px solid black; */
+        display: flex;
+        width: 98%;
+        min-height: 450px;
+        max-height: 600px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .departmentnotices {
+        background: #dbdbdb54;
+        padding: 3px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        width: 45%;
+        margin: 0 1% 1% 1%;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .departmentrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        font-size: 4vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    .placementrelatedNotice {
+        width: 45%;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .placementrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        font-size: 3.8vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    hr {
+        position: relative;
+        margin-top: 2%;
+        border: none;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.377);
+        box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.637);
+        margin-bottom: 5%;
+    }
+
+    .resultrelatedNotices {
+        width: 45%;
+        /* margin-top: 1%; */
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .resultofplacementNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        text-align: center;
+        font-size: 3.8vw;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+
+    .subclassofnotice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 6%;
+        text-align: center;
+        font-size: 2.5vw;
+        margin: 5px;
+        border: 1px solid rgba(18, 107, 110, 0.61);
+        background: linear-gradient(45deg, rgb(197, 194, 194), rgba(153, 241, 227, 0.589), rgb(249, 249, 250));
+        border-radius: 10px;
+    }
+
+    .detailing-of-notices {
+        display: block;
+        margin-top: 33%;
+    }
+
+}
+
+/*<-------------------------------media changes  780px------------------------>*/
+/*<-------------------------------media changes  780px------------------------>*/
+@media only screen and (max-width: 780px) {
+
+    html {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    *::before,
+    *::after {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: 'Times New Roman';
+        min-height: 100vh;
+        /* background: rgb(136 211 241 / 33%); */
+        background: #9aedf666;
+        /* background: linear-gradient(270deg, rgba(216, 210, 210, 0.397), rgba(163, 165, 163, 0.527), rgba(109, 220, 228, 0.438)); */
+    }
+
+    a:active {
+        color: yellow;
+    }
+
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #000000ab;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 80%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px solid rgb(1, 97, 1);
+        border-radius: 4px;
+        box-shadow: 0px 12px 20px 2px black;
+        cursor: pointer;
+        margin-left: 10%;
+    }
+
+    input[type=submit]:hover {
+        background-color: #216824;
+    }
+
+
+    /*<------------------Header for everypage-------------------->*/
+
+    #headerforeverypage {
+        display: block;
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .uninamelogo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(22, 223, 223, 0.534);
+    }
+
+    .unilogo {
+        margin-left: 20px;
+        margin-top: 2px;
+    }
+
+    .unilogoImage {
+        border: 1px solid black;
+        height: 25px;
+        width: 25px;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .universitynameandlogo {
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colgname {
+        border: 1px solid black;
+        background: rgba(54, 243, 110, 0.849);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .department {
+        border: 1px solid black;
+        background: rgba(63, 151, 233, 0.425);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*<------------------End of Header for everypage-------------------->*/
+
+    /*<------------------Side bar---------------------------------> */
+
+    .navbar {
+        border: 2px solid black;
+        display: flex;
+        width: 99%;
+        height: 40px;
+        padding-left: 1%;
+        align-items: center;
+        justify-content: start;
+        background: #282A35;
+    }
+
+    .optionLogo {
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+    .optionLogoImage {
+        width: 3vh;
+        height: 3vh;
+    }
+
+    .HomeLogoImage {
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .homebtn {
+        color: rgb(0, 0, 0);
+        width: 235%;
+        min-height: 38px;
+        margin-right: 1%;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .studentdetail {
+        color: black;
+        width: 100%;
+        height: 37px;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .studentcorner {
+        color: black;
+        width: 100%;
+        height: 37px;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .tabwithlogo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 20%;
+        margin: 0 1% 0 0;
+        cursor: pointer;
+    }
+
+    /* .sidebarchild {
+        background-color: aliceblue;
+        border: 2px solid black;
+        display: inline-flex;
+        width: 80%;
+        min-height: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    } */
+
+    .Logout {
+        color: black;
+        position: relative;
+        width: 10%;
+        height: 90%;
+        background-color: #ffd902;
+        border-radius: 10px;
+        left: 25%;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    /*   Student corner drop down*/
+    /* .dropbtn {
+        background-color: #046daa;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 8px;
+        font-size: 16px;
+        margin-left: 5%;
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    } */
+
+    .dropdown {
+        position: fixed;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .dropdown-content li {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #7e7b7b9d;
+        background: rgba(255, 255, 255, 0.562);
+        width: 25%;
+        margin-top: 2px;
+        padding: 1px;
+        border-radius: 8px;
+        box-shadow: -1px 5px 15px 1px rgb(0 0 0 / 27%);
+        z-index: 5;
+        cursor: pointer;
+        margin-left: 20%;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .dropdown-content a {
+        color: black;
+        background: rgb(255, 255, 255);
+        padding: 2%;
+        width: 100%;
+        text-decoration: none;
+        box-shadow: 1px 5px 15px 1px rgb(0 0 0 / 27%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .dropdown-content a:hover {
+        background: #62baea80;
+        cursor: pointer;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block
+    }
+
+    .dropdown:hover .dropbtn {
+        cursor: pointer;
+        background-color: #ffc400d7;
+        color: black;
+    }
+
+    /* <----------------base for every page--------------------> */
+
+    .baseforeverypage {
+        display: flex;
+    }
+
+    /* <----------------End base for everypage--------------------> */
+
+    /* <--------------------Main Frame Pages---------------------->  */
+    .mainframe {
+        border: 2px solid black;
+        margin-top: 1%;
+        padding: 1%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        min-width: 90%;
+        height: 60%;
+        justify-content: space-between;
+        align-items: self-start;
+        margin-bottom: 2%;
+        background-color: #f7f5f5;
+        backdrop-filter: blur(50px);
+    }
+
+
+    /* <--------------------End of Main Frame Pages---------------------->  */
+
+    /*<---------------------Footer part for every Page--------------------->*/
+
+    #footerforeverypage {
+        display: flex;
+        position: sticky;
+        position: fixed;
+        position: static;
+        width: 100%;
+        font-weight: bold;
+        height: 10vh;
+        background-color: #1f2c38;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        font-size: 3.5vw;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usefullinks {
+        border: 2px solid red;
+        display: flex;
+        border-radius: 5px;
+        margin: 1%;
+        width: 50%;
+        min-height: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: #0fdb6bd5;
+    }
+
+    /*<---------------------End of Footer part for every Page--------------------->*/
+
+
+
+    /*<--------------Circular--------------->*/
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .circularsbase {
+        display: flex;
+        width: 96%;
+        min-height: 80%;
+        margin-left: 2%;
+        /* border: 2px solid black; */
+        border-radius: 12px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .internalcircular {
+        width: 50%;
+        margin: 1%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+        list-style: none;
+    }
+
+    .internalcircular li {
+        list-style: none;
+    }
+
+    .internalcircularhead {
+        width: 90%;
+        font-size: 3.5vw;
+        min-height: 60px;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        display: flex;
+        height: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    .extrnalcircular {
+        width: 50%;
+        margin: 1% 1% 1% 0%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .extrnalcircular li {
+        list-style: none;
+    }
+
+    .externalcircularhead {
+        width: 90%;
+        margin-bottom: 1%;
+        min-height: 60px;
+        font-size: 3.5vw;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        height: 20%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    hr {
+        border: 1px solid rgb(117, 116, 116);
+    }
+
+    .circulartagdetailing {
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 97%;
+        min-height: 35px;
+        text-align: center;
+        background: rgba(15, 235, 132, 0.589);
+        margin: 1%;
+    }
+
+    a:-webkit-any-link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .list-detailing {}
+
+    /*<--------------End Circular--------------->*/
+    .subtabsNotice {
+        /* border: 2px solid black; */
+        display: flex;
+        width: 98%;
+        min-height: 450px;
+        max-height: 600px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .departmentnotices {
+        background: #dbdbdb54;
+        padding: 3px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        width: 45%;
+        margin: 0 1% 1% 1%;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .departmentrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        font-size: 4vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    .placementrelatedNotice {
+        width: 45%;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .placementrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        font-size: 3.8vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    hr {
+        position: relative;
+        margin-top: 2%;
+        border: none;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.377);
+        box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.637);
+        margin-bottom: 5%;
+    }
+
+    .resultrelatedNotices {
+        width: 45%;
+        /* margin-top: 1%; */
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .resultofplacementNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        text-align: center;
+        font-size: 3.8vw;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+
+    .subclassofnotice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 6%;
+        text-align: center;
+        font-size: 2.5vw;
+        margin: 5px;
+        border: 1px solid rgba(18, 107, 110, 0.61);
+        background: linear-gradient(45deg, rgb(197, 194, 194), rgba(153, 241, 227, 0.589), rgb(249, 249, 250));
+        border-radius: 10px;
+    }
+
+    .detailing-of-notices {
+        display: block;
+        margin-top: 33%;
+    }
+
+}
+
+/*<-------------------------------media changes  541px------------------------>*/
+/*<-------------------------------media changes  541px------------------------>*/
+@media only screen and (max-width: 541px) {
+
+    html {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    *::before,
+    *::after {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: 'Times New Roman';
+        min-height: 100vh;
+        /* background: rgb(136 211 241 / 33%); */
+        background: #9aedf666;
+
+        /* background: linear-gradient(270deg, rgba(216, 210, 210, 0.397), rgba(163, 165, 163, 0.527), rgba(109, 220, 228, 0.438)); */
+    }
+
+    a:active {
+        color: yellow;
+    }
+
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #000000ab;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 80%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px solid rgb(1, 97, 1);
+        border-radius: 4px;
+        box-shadow: 0px 12px 20px 2px black;
+        cursor: pointer;
+        margin-left: 10%;
+    }
+
+    input[type=submit]:hover {
+        background-color: #216824;
+    }
+
+
+    /*<------------------Header for everypage-------------------->*/
+
+    #headerforeverypage {
+        display: block;
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .uninamelogo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(22, 223, 223, 0.534);
+    }
+
+    .unilogo {
+        margin-left: 20px;
+        margin-top: 2px;
+    }
+
+    .unilogoImage {
+        border: 1px solid black;
+        height: 25px;
+        width: 25px;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .universitynameandlogo {
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colgname {
+        border: 1px solid black;
+        background: rgba(54, 243, 110, 0.849);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .department {
+        border: 1px solid black;
+        background: rgba(63, 151, 233, 0.425);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*<------------------End of Header for everypage-------------------->*/
+
+    /*<------------------Side bar---------------------------------> */
+
+    .navbar {
+        border: 2px solid black;
+        display: flex;
+        width: 99%;
+        height: 40px;
+        padding-left: 1%;
+        align-items: center;
+        justify-content: start;
+        background: #282A35;
+    }
+
+    .optionLogo {
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+    .optionLogoImage {
+        width: 3vh;
+        height: 3vh;
+    }
+
+    .HomeLogoImage {
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .homebtn {
+        color: rgb(0, 0, 0);
+        width: 225%;
+        min-height: 38px;
+        margin-right: 1%;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .studentdetail {
+        color: black;
+        width: 100%;
+        height: 37px;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .studentcorner {
+        color: black;
+        width: 100%;
+        height: 37px;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .tabwithlogo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 20%;
+        margin: 0 1% 0 0;
+        cursor: pointer;
+    }
+
+    /* .sidebarchild {
+        background-color: aliceblue;
+        border: 2px solid black;
+        display: inline-flex;
+        width: 80%;
+        min-height: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    } */
+
+    .Logout {
+        color: black;
+        position: relative;
+        width: 10%;
+        height: 90%;
+        background-color: #ffd902;
+        border-radius: 10px;
+        left: 25%;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    /*   Student corner drop down*/
+    /* .dropbtn {
+        background-color: #046daa;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 8px;
+        font-size: 16px;
+        margin-left: 5%;
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    } */
+
+    .dropdown {
+        position: fixed;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .dropdown-content li {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #7e7b7b9d;
+        background: rgba(255, 255, 255, 0.562);
+        width: 25%;
+        margin-top: 2px;
+        padding: 1px;
+        border-radius: 8px;
+        box-shadow: -1px 5px 15px 1px rgb(0 0 0 / 27%);
+        z-index: 5;
+        cursor: pointer;
+        margin-left: 20%;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .dropdown-content a {
+        color: black;
+        background: rgb(255, 255, 255);
+        padding: 2%;
+        width: 100%;
+        text-decoration: none;
+        box-shadow: 1px 5px 15px 1px rgb(0 0 0 / 27%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .dropdown-content a:hover {
+        background: #62baea80;
+        cursor: pointer;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block
+    }
+
+    .dropdown:hover .dropbtn {
+        cursor: pointer;
+        background-color: #ffc400d7;
+        color: black;
+    }
+
+    /* <----------------base for every page--------------------> */
+
+    .baseforeverypage {
+        display: flex;
+    }
+
+    /* <----------------End base for everypage--------------------> */
+
+    /* <--------------------Main Frame Pages---------------------->  */
+    .mainframe {
+        border: 2px solid black;
+        margin-top: 1%;
+        padding: 1%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        min-width: 90%;
+        height: 60%;
+        justify-content: space-between;
+        align-items: self-start;
+        margin-bottom: 2%;
+        background-color: #f7f5f5;
+        backdrop-filter: blur(50px);
+    }
+
+
+    /* <--------------------End of Main Frame Pages---------------------->  */
+
+    /*<---------------------Footer part for every Page--------------------->*/
+
+    #footerforeverypage {
+        display: flex;
+        position: sticky;
+        position: fixed;
+        position: static;
+        width: 100%;
+        font-weight: bold;
+        height: 10vh;
+        background-color: #1f2c38;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        font-size: 3.5vw;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usefullinks {
+        border: 2px solid red;
+        display: flex;
+        border-radius: 5px;
+        margin: 1%;
+        width: 50%;
+        min-height: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: #0fdb6bd5;
+    }
+
+    /*<---------------------End of Footer part for every Page--------------------->*/
+
+
+
+    /*<--------------Circular--------------->*/
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .circularsbase {
+        display: flex;
+        width: 96%;
+        min-height: 80%;
+        margin-left: 2%;
+        /* border: 2px solid black; */
+        border-radius: 12px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .internalcircular {
+        width: 50%;
+        margin: 1%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+        list-style: none;
+    }
+
+    .internalcircular li {
+        list-style: none;
+    }
+
+    .internalcircularhead {
+        width: 90%;
+        font-size: 3.5vw;
+        min-height: 60px;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        display: flex;
+        height: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    .extrnalcircular {
+        width: 50%;
+        margin: 1% 1% 1% 0%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .extrnalcircular li {
+        list-style: none;
+    }
+
+    .externalcircularhead {
+        width: 90%;
+        margin-bottom: 1%;
+        min-height: 60px;
+        font-size: 3.5vw;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        height: 20%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    hr {
+        border: 1px solid rgb(117, 116, 116);
+    }
+
+    .circulartagdetailing {
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 97%;
+        min-height: 35px;
+        text-align: center;
+        background: rgba(15, 235, 132, 0.589);
+        margin: 1%;
+    }
+
+    a:-webkit-any-link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .list-detailing {}
+
+    /*<--------------End Circular--------------->*/
+    .subtabsNotice {
+        /* border: 2px solid black; */
+        display: flex;
+        width: 98%;
+        min-height: 450px;
+        max-height: 600px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .departmentnotices {
+        background: #dbdbdb54;
+        padding: 3px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        width: 45%;
+        margin: 0 1% 1% 1%;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .departmentrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        font-size: 4vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    .placementrelatedNotice {
+        width: 45%;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .placementrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        font-size: 3.8vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    hr {
+        position: relative;
+        margin-top: 2%;
+        border: none;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.377);
+        box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.637);
+        margin-bottom: 5%;
+    }
+
+    .resultrelatedNotices {
+        width: 45%;
+        /* margin-top: 1%; */
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .resultofplacementNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        text-align: center;
+        font-size: 3.8vw;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+
+    .subclassofnotice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 6%;
+        text-align: center;
+        font-size: 2.5vw;
+        margin: 5px;
+        border: 1px solid rgba(18, 107, 110, 0.61);
+        background: linear-gradient(45deg, rgb(197, 194, 194), rgba(153, 241, 227, 0.589), rgb(249, 249, 250));
+        border-radius: 10px;
+    }
+
+    .detailing-of-notices {
+        display: block;
+        margin-top: 40%;
+    }
+
+}
+
+/*<-------------------------------media changes  420px------------------------>*/
+/*<-------------------------------media changes  420px------------------------>*/
+@media only screen and (max-width: 420px) {
+
+    html {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    *::before,
+    *::after {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: 'Times New Roman';
+        min-height: 100vh;
+        /* background: rgb(136 211 241 / 33%); */
+        background: #9aedf666;
+        /* background: linear-gradient(270deg, rgba(216, 210, 210, 0.397), rgba(163, 165, 163, 0.527), rgba(109, 220, 228, 0.438)); */
+    }
+
+    a:active {
+        color: yellow;
+    }
+
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #000000ab;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 80%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px solid rgb(1, 97, 1);
+        border-radius: 4px;
+        box-shadow: 0px 12px 20px 2px black;
+        cursor: pointer;
+        margin-left: 10%;
+    }
+
+    input[type=submit]:hover {
+        background-color: #216824;
+    }
+
+
+    /*<------------------Header for everypage-------------------->*/
+
+    #headerforeverypage {
+        display: block;
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .uninamelogo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(22, 223, 223, 0.534);
+    }
+
+    .unilogo {
+        margin-left: 20px;
+        margin-top: 2px;
+    }
+
+    .unilogoImage {
+        border: 1px solid black;
+        height: 25px;
+        width: 25px;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .universitynameandlogo {
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colgname {
+        border: 1px solid black;
+        background: rgba(54, 243, 110, 0.849);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .department {
+        border: 1px solid black;
+        background: rgba(63, 151, 233, 0.425);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*<------------------End of Header for everypage-------------------->*/
+
+    /*<------------------Side bar---------------------------------> */
+
+    .navbar {
+        border: 2px solid black;
+        display: flex;
+        width: 99%;
+        height: 40px;
+        padding-left: 1%;
+        align-items: center;
+        justify-content: start;
+        background: #282A35;
+    }
+
+    .optionLogo {
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+    .optionLogoImage {
+        width: 3vh;
+        height: 3vh;
+    }
+
+    .HomeLogoImage {
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .homebtn {
+        color: rgb(0, 0, 0);
+        width: 210%;
+        margin-right: 1%;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .studentdetail {
+        color: black;
+        width: 100%;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .studentcorner {
+        color: black;
+        width: 100%;
+        height: 37px;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .tabwithlogo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 20%;
+        margin: 0 1% 0 0;
+        cursor: pointer;
+    }
+
+    /* .sidebarchild {
+        background-color: aliceblue;
+        border: 2px solid black;
+        display: inline-flex;
+        width: 80%;
+        min-height: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    } */
+
+    .Logout {
+        color: black;
+        position: relative;
+        width: 10%;
+        height: 90%;
+        background-color: #ffd902;
+        border-radius: 10px;
+        left: 25%;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    /*   Student corner drop down*/
+    /* .dropbtn {
+        background-color: #046daa;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 8px;
+        font-size: 16px;
+        margin-left: 5%;
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    } */
+
+    .dropdown {
+        position: fixed;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .dropdown-content li {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #7e7b7b9d;
+        background: rgba(255, 255, 255, 0.562);
+        width: 15%;
+        margin-top: 2px;
+        padding: 1px;
+        border-radius: 8px;
+        box-shadow: -1px 5px 15px 1px rgb(0 0 0 / 27%);
+        z-index: 5;
+        cursor: pointer;
+        margin-left: 20%;
+        font-weight: bold;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        margin-left: 36px;
+    }
+
+    .dropdown-content a {
+        color: black;
+        background: rgb(255, 255, 255);
+        padding: 2%;
+        width: 100%;
+        text-decoration: none;
+        box-shadow: 1px 5px 15px 1px rgb(0 0 0 / 27%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .dropdown-content a:hover {
+        background: #62baea80;
+        cursor: pointer;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block
+    }
+
+    .dropdown:hover .dropbtn {
+        cursor: pointer;
+        background-color: #ffc400d7;
+        color: black;
+    }
+
+    /* <----------------base for every page--------------------> */
+
+    .baseforeverypage {
+        display: flex;
+    }
+
+    /* <----------------End base for everypage--------------------> */
+
+    /* <--------------------Main Frame Pages---------------------->  */
+    .mainframe {
+        border: 2px solid black;
+        margin-top: 1%;
+        padding: 1%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        min-width: 90%;
+        height: 60%;
+        justify-content: space-between;
+        align-items: self-start;
+        margin-bottom: 2%;
+        background-color: #f7f5f5;
+        backdrop-filter: blur(50px);
+    }
+
+
+    /* <--------------------End of Main Frame Pages---------------------->  */
+
+    /*<---------------------Footer part for every Page--------------------->*/
+
+    #footerforeverypage {
+        display: flex;
+        position: sticky;
+        position: fixed;
+        position: static;
+        width: 100%;
+        font-weight: bold;
+        height: 10vh;
+        background-color: #1f2c38;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        font-size: 3.5vw;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usefullinks {
+        border: 2px solid red;
+        display: flex;
+        border-radius: 5px;
+        margin: 1%;
+        width: 50%;
+        min-height: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: #0fdb6bd5;
+    }
+
+    /*<---------------------End of Footer part for every Page--------------------->*/
+
+
+
+    /*<--------------Circular--------------->*/
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .circularsbase {
+        display: flex;
+        width: 96%;
+        min-height: 80%;
+        margin-left: 2%;
+        /* border: 2px solid black; */
+        border-radius: 12px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .internalcircular {
+        width: 50%;
+        margin: 1%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+        list-style: none;
+    }
+
+    .internalcircular ul {
+        overflow: auto;
+    }
+
+    .internalcircular li {
+        list-style: none;
+    }
+
+    .internalcircularhead {
+        width: 90%;
+        font-size: 3.5vw;
+        min-height: 60px;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        display: flex;
+        height: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    .extrnalcircular {
+        width: 50%;
+        margin: 1% 1% 1% 0%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .extrnalcircular li {
+        list-style: none;
+    }
+
+    .externalcircularhead {
+        width: 90%;
+        margin-bottom: 1%;
+        min-height: 60px;
+        font-size: 3.5vw;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        height: 20%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    hr {
+        border: 1px solid rgb(117, 116, 116);
+    }
+
+    .circulartagdetailing {
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 97%;
+        min-height: 35px;
+        text-align: center;
+        background: rgba(15, 235, 132, 0.589);
+        margin: 1%;
+    }
+
+    a:-webkit-any-link {
+        color: black;
+        text-decoration: none;
+    }
+
+    /* .list-detailing {} */
+
+    /*<--------------End Circular--------------->*/
+    .subtabsNotice {
+        /* border: 2px solid black; */
+        display: flex;
+        width: 98%;
+        min-height: 450px;
+        max-height: 600px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .departmentnotices {
+        background: #dbdbdb54;
+        padding: 3px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        width: 45%;
+        margin: 0 1% 1% 1%;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .departmentrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        font-size: 4vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    .placementrelatedNotice {
+        width: 45%;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .placementrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        font-size: 3.8vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    hr {
+        position: relative;
+        margin-top: 2%;
+        border: none;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.377);
+        box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.637);
+        margin-bottom: 5%;
+    }
+
+    .resultrelatedNotices {
+        width: 45%;
+        /* margin-top: 1%; */
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .resultofplacementNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        text-align: center;
+        font-size: 3.8vw;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+
+    .subclassofnotice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 6%;
+        text-align: center;
+        font-size: 2.5vw;
+        margin: 5px;
+        border: 1px solid rgba(18, 107, 110, 0.61);
+        background: linear-gradient(45deg, rgb(197, 194, 194), rgba(153, 241, 227, 0.589), rgb(249, 249, 250));
+        border-radius: 10px;
+    }
+
+    .detailing-of-notices {
+        display: block;
+        margin-top: 50%;
+    }
+
+}
+
+/*<-------------------------------media changes  415px------------------------>*/
+/*<-------------------------------media changes  415px------------------------>*/
+@media only screen and (max-width: 414px) {
+
+    html {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    *::before,
+    *::after {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: 'Times New Roman';
+        min-height: 100vh;
+        /* background: rgb(136 211 241 / 33%); */
+        background: #9aedf666;
+        /* background: linear-gradient(270deg, rgba(216, 210, 210, 0.397), rgba(163, 165, 163, 0.527), rgba(109, 220, 228, 0.438)); */
+    }
+
+    a:active {
+        color: yellow;
+    }
+
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #000000ab;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 80%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px solid rgb(1, 97, 1);
+        border-radius: 4px;
+        box-shadow: 0px 12px 20px 2px black;
+        cursor: pointer;
+        margin-left: 10%;
+    }
+
+    input[type=submit]:hover {
+        background-color: #216824;
+    }
+
+
+    /*<------------------Header for everypage-------------------->*/
+
+    #headerforeverypage {
+        display: block;
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .uninamelogo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(22, 223, 223, 0.534);
+    }
+
+    .unilogo {
+        margin-left: 20px;
+        margin-top: 2px;
+    }
+
+    .unilogoImage {
+        border: 1px solid black;
+        height: 25px;
+        width: 25px;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .universitynameandlogo {
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colgname {
+        border: 1px solid black;
+        background: rgba(54, 243, 110, 0.849);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .department {
+        border: 1px solid black;
+        background: rgba(63, 151, 233, 0.425);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*<------------------End of Header for everypage-------------------->*/
+
+    /*<------------------Side bar---------------------------------> */
+
+    .navbar {
+        border: 2px solid black;
+        display: flex;
+        width: 99%;
+        height: 40px;
+        padding-left: 1%;
+        align-items: center;
+        justify-content: start;
+        background: #282A35;
+    }
+
+    .optionLogo {
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+    .optionLogoImage {
+        width: 3vh;
+        height: 3vh;
+    }
+
+    .HomeLogoImage {
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .homebtn {
+        color: rgb(0, 0, 0);
+        width: 135%;
+        min-height: 38px;
+        margin-right: 1%;
+        border-radius: 10px;
+        font-size: 3.3vw;
+        cursor: pointer;
+    }
+
+    .studentdetail {
+        color: black;
+        width: 100%;
+        min-height: 38px;
+        border-radius: 10px;
+        font-size: 3.3vw;
+        cursor: pointer;
+    }
+
+    .studentcorner {
+        color: black;
+        width: 100%;
+        min-height: 38px;
+        border-radius: 10px;
+        font-size: 3.3vw;
+        cursor: pointer;
+    }
+
+    .tabwithlogo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 20%;
+        margin: 0 1% 0 0;
+        cursor: pointer;
+    }
+
+    /* .sidebarchild {
+        background-color: aliceblue;
+        border: 2px solid black;
+        display: inline-flex;
+        width: 80%;
+        min-height: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    } */
+
+    .Logout {
+        color: black;
+        position: relative;
+        width: 10%;
+        height: 90%;
+        background-color: #ffd902;
+        border-radius: 10px;
+        left: 25%;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    /*   Student corner drop down*/
+    /* .dropbtn {
+        background-color: #046daa;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 8px;
+        font-size: 16px;
+        margin-left: 5%;
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    } */
+
+    .dropdown {
+        position: fixed;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .dropdown-content li {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #7e7b7b9d;
+        background: rgba(255, 255, 255, 0.562);
+        width: 25%;
+        margin-top: 2px;
+        padding: 1px;
+        border-radius: 8px;
+        box-shadow: -1px 5px 15px 1px rgb(0 0 0 / 27%);
+        z-index: 5;
+        cursor: pointer;
+        margin-left: 20%;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .dropdown-content a {
+        color: black;
+        background: rgb(255, 255, 255);
+        padding: 2%;
+        width: 100%;
+        text-decoration: none;
+        box-shadow: 1px 5px 15px 1px rgb(0 0 0 / 27%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .dropdown-content a:hover {
+        background: #62baea80;
+        cursor: pointer;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block
+    }
+
+    .dropdown:hover .dropbtn {
+        cursor: pointer;
+        background-color: #ffc400d7;
+        color: black;
+    }
+
+    /* <----------------base for every page--------------------> */
+
+    .baseforeverypage {
+        display: flex;
+    }
+
+    /* <----------------End base for everypage--------------------> */
+
+    /* <--------------------Main Frame Pages---------------------->  */
+    .mainframe {
+        border: 2px solid black;
+        margin-top: 1%;
+        padding: 1%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        min-width: 90%;
+        height: 60%;
+        justify-content: space-between;
+        align-items: self-start;
+        margin-bottom: 2%;
+        background-color: #f7f5f5;
+        backdrop-filter: blur(50px);
+    }
+
+
+    /* <--------------------End of Main Frame Pages---------------------->  */
+
+    /*<---------------------Footer part for every Page--------------------->*/
+
+    #footerforeverypage {
+        display: flex;
+        position: sticky;
+        position: fixed;
+        position: static;
+        width: 100%;
+        font-weight: bold;
+        height: 10vh;
+        background-color: #1f2c38;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usefullinks {
+        border: 2px solid red;
+        display: flex;
+        border-radius: 5px;
+        margin: 1%;
+        width: 50%;
+        min-height: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: #0fdb6bd5;
+    }
+
+    /*<---------------------End of Footer part for every Page--------------------->*/
+
+
+
+    /*<--------------Circular--------------->*/
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .circularsbase {
+        display: flex;
+        width: 96%;
+        min-height: 80%;
+        margin-left: 2%;
+        /* border: 2px solid black; */
+        border-radius: 12px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .internalcircular {
+        width: 50%;
+        margin: 1%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+        list-style: none;
+    }
+
+    .internalcircular li {
+        list-style: none;
+    }
+
+    .internalcircularhead {
+        width: 90%;
+        font-size: 3.5vw;
+        min-height: 60px;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        display: flex;
+        height: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    .extrnalcircular {
+        width: 50%;
+        margin: 1% 1% 1% 0%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .extrnalcircular li {
+        list-style: none;
+    }
+
+    .externalcircularhead {
+        width: 90%;
+        margin-bottom: 1%;
+        min-height: 60px;
+        font-size: 3.5vw;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        height: 20%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    hr {
+        border: 1px solid rgb(117, 116, 116);
+    }
+
+    .circulartagdetailing {
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 97%;
+        min-height: 35px;
+        text-align: center;
+        background: rgba(15, 235, 132, 0.589);
+        margin: 1%;
+    }
+
+    a:-webkit-any-link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .list-detailing {}
+
+    /*<--------------End Circular--------------->*/
+    .subtabsNotice {
+        /* border: 2px solid black; */
+        display: flex;
+        width: 98%;
+        min-height: 450px;
+        max-height: 600px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .departmentnotices {
+        background: #dbdbdb54;
+        padding: 3px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        width: 45%;
+        margin: 0 1% 1% 1%;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .departmentrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 29.3%;
+        height: 10%;
+        font-size: 5.3vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    .placementrelatedNotice {
+        width: 45%;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .placementrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 29.3%;
+        height: 10%;
+        font-size: 5.3vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    hr {
+        position: relative;
+        margin-top: 2%;
+        border: none;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.377);
+        box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.637);
+        margin-bottom: 5%;
+    }
+
+    .resultrelatedNotices {
+        width: 45%;
+        /* margin-top: 1%; */
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .resultofplacementNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 29.3%;
+        height: 10%;
+        text-align: center;
+        font-size: 5.3vw;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+
+    .subclassofnotice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 6%;
+        text-align: center;
+        font-size: 3.5vw;
+        margin: 5px;
+        border: 1px solid rgba(18, 107, 110, 0.61);
+        background: linear-gradient(45deg, rgb(197, 194, 194), rgba(153, 241, 227, 0.589), rgb(249, 249, 250));
+        border-radius: 10px;
+    }
+
+    .detailing-of-notices {
+        display: block;
+        margin-top: 63%;
+    }
+
+}
+
+/*<-------------------------------media changes  390px------------------------>*/
+/*<-------------------------------media changes  390px------------------------>*/
+@media only screen and (max-width: 390px) {
+
+    html {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    *::before,
+    *::after {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: 'Times New Roman';
+        min-height: 100vh;
+        /* background: rgb(136 211 241 / 33%); */
+        background: #9aedf666;
+        /* background: linear-gradient(270deg, rgba(216, 210, 210, 0.397), rgba(163, 165, 163, 0.527), rgba(109, 220, 228, 0.438)); */
+    }
+
+    a:active {
+        color: yellow;
+    }
+
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #000000ab;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 80%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px solid rgb(1, 97, 1);
+        border-radius: 4px;
+        box-shadow: 0px 12px 20px 2px black;
+        cursor: pointer;
+        margin-left: 10%;
+    }
+
+    input[type=submit]:hover {
+        background-color: #216824;
+    }
+
+
+    /*<------------------Header for everypage-------------------->*/
+
+    #headerforeverypage {
+        display: block;
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .uninamelogo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(22, 223, 223, 0.534);
+    }
+
+    .unilogo {
+        margin-left: 20px;
+        margin-top: 2px;
+    }
+
+    .unilogoImage {
+        border: 1px solid black;
+        height: 25px;
+        width: 25px;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .universitynameandlogo {
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colgname {
+        border: 1px solid black;
+        background: rgba(54, 243, 110, 0.849);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .department {
+        border: 1px solid black;
+        background: rgba(63, 151, 233, 0.425);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*<------------------End of Header for everypage-------------------->*/
+
+    /*<------------------Side bar---------------------------------> */
+
+    .navbar {
+        border: 2px solid black;
+        display: flex;
+        width: 99%;
+        height: 40px;
+        padding-left: 1%;
+        align-items: center;
+        justify-content: start;
+        background: #282A35;
+    }
+
+    .optionLogo {
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+    .optionLogoImage {
+        width: 3vh;
+        height: 3vh;
+    }
+
+    .HomeLogoImage {
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .homebtn {
+        color: rgb(0, 0, 0);
+        width: 125%;
+        min-height: 38px;
+        margin-right: 1%;
+        border-radius: 10px;
+        font-size: 3.3vw;
+        cursor: pointer;
+    }
+
+    .studentdetail {
+        color: black;
+        width: 100%;
+        min-height: 38px;
+        border-radius: 10px;
+        font-size: 3.3vw;
+        cursor: pointer;
+    }
+
+    .studentcorner {
+        color: black;
+        width: 100%;
+        min-height: 38px;
+        border-radius: 10px;
+        font-size: 3.3vw;
+        cursor: pointer;
+    }
+
+    .tabwithlogo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 20%;
+        margin: 0 1% 0 0;
+        cursor: pointer;
+    }
+
+    /* .sidebarchild {
+        background-color: aliceblue;
+        border: 2px solid black;
+        display: inline-flex;
+        width: 80%;
+        min-height: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    } */
+
+    .Logout {
+        color: black;
+        position: relative;
+        width: 10%;
+        height: 90%;
+        background-color: #ffd902;
+        border-radius: 10px;
+        left: 25%;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    /*   Student corner drop down*/
+    /* .dropbtn {
+        background-color: #046daa;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 8px;
+        font-size: 16px;
+        margin-left: 5%;
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    } */
+
+    .dropdown {
+        position: fixed;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .dropdown-content li {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #7e7b7b9d;
+        background: rgba(255, 255, 255, 0.562);
+        width: 25%;
+        margin-top: 2px;
+        padding: 1px;
+        border-radius: 8px;
+        box-shadow: -1px 5px 15px 1px rgb(0 0 0 / 27%);
+        z-index: 5;
+        cursor: pointer;
+        margin-left: 20%;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .dropdown-content a {
+        color: black;
+        background: rgb(255, 255, 255);
+        padding: 2%;
+        width: 100%;
+        text-decoration: none;
+        box-shadow: 1px 5px 15px 1px rgb(0 0 0 / 27%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .dropdown-content a:hover {
+        background: #62baea80;
+        cursor: pointer;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block
+    }
+
+    .dropdown:hover .dropbtn {
+        cursor: pointer;
+        background-color: #ffc400d7;
+        color: black;
+    }
+
+    /* <----------------base for every page--------------------> */
+
+    .baseforeverypage {
+        display: flex;
+    }
+
+    /* <----------------End base for everypage--------------------> */
+
+    /* <--------------------Main Frame Pages---------------------->  */
+    .mainframe {
+        border: 2px solid black;
+        margin-top: 1%;
+        padding: 1%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        min-width: 90%;
+        height: 60%;
+        justify-content: space-between;
+        align-items: self-start;
+        margin-bottom: 2%;
+        background-color: #f7f5f5;
+        backdrop-filter: blur(50px);
+    }
+
+
+    /* <--------------------End of Main Frame Pages---------------------->  */
+
+    /*<---------------------Footer part for every Page--------------------->*/
+
+    #footerforeverypage {
+        display: flex;
+        position: sticky;
+        position: fixed;
+        position: static;
+        width: 100%;
+        font-weight: bold;
+        height: 10vh;
+        background-color: #1f2c38;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        font-size: 4.5vw;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usefullinks {
+        border: 2px solid red;
+        display: flex;
+        border-radius: 5px;
+        margin: 1%;
+        width: 50%;
+        min-height: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: #0fdb6bd5;
+    }
+
+    /*<---------------------End of Footer part for every Page--------------------->*/
+
+
+
+    /*<--------------Circular--------------->*/
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .circularsbase {
+        display: flex;
+        width: 96%;
+        min-height: 80%;
+        margin-left: 2%;
+        /* border: 2px solid black; */
+        border-radius: 12px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .internalcircular {
+        width: 50%;
+        margin: 1%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+        list-style: none;
+    }
+
+    .internalcircular li {
+        list-style: none;
+    }
+
+    .internalcircularhead {
+        width: 90%;
+        font-size: 3.5vw;
+        min-height: 60px;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        display: flex;
+        height: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    .extrnalcircular {
+        width: 50%;
+        margin: 1% 1% 1% 0%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .extrnalcircular li {
+        list-style: none;
+    }
+
+    .externalcircularhead {
+        width: 90%;
+        margin-bottom: 1%;
+        min-height: 60px;
+        font-size: 3.5vw;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        height: 20%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    hr {
+        border: 1px solid rgb(117, 116, 116);
+    }
+
+    .circulartagdetailing {
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 97%;
+        min-height: 35px;
+        text-align: center;
+        background: rgba(15, 235, 132, 0.589);
+        margin: 1%;
+    }
+
+    a:-webkit-any-link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .list-detailing {}
+
+    /*<--------------End Circular--------------->*/
+    .subtabsNotice {
+        /* border: 2px solid black; */
+        display: flex;
+        width: 98%;
+        min-height: 450px;
+        max-height: 600px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .departmentnotices {
+        background: #dbdbdb54;
+        padding: 3px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        width: 45%;
+        margin: 0 1% 1% 1%;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .departmentrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 29.3%;
+        height: 10%;
+        font-size: 5.3vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    .placementrelatedNotice {
+        width: 45%;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .placementrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 29.3%;
+        height: 10%;
+        font-size: 5.3vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    hr {
+        position: relative;
+        margin-top: 2%;
+        border: none;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.377);
+        box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.637);
+        margin-bottom: 5%;
+    }
+
+    .resultrelatedNotices {
+        width: 45%;
+        /* margin-top: 1%; */
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .resultofplacementNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 29.3%;
+        height: 10%;
+        text-align: center;
+        font-size: 5.3vw;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+
+    .subclassofnotice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 6%;
+        text-align: center;
+        font-size: 3.5vw;
+        margin: 5px;
+        border: 1px solid rgba(18, 107, 110, 0.61);
+        background: linear-gradient(45deg, rgb(197, 194, 194), rgba(153, 241, 227, 0.589), rgb(249, 249, 250));
+        border-radius: 10px;
+    }
+
+    .detailing-of-notices {
+        display: block;
+        margin-top: 68%;
+    }
+
+}
+
+/*<-------------------------------media changes  281px------------------------>*/
+/*<-------------------------------media changes  281px------------------------>*/
+@media only screen and (max-width: 281px) {
+
+    html {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    *::before,
+    *::after {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: 'Times New Roman';
+        min-height: 100vh;
+        /* background: rgb(136 211 241 / 33%); */
+        background: #9aedf666;
+        /* background: linear-gradient(270deg, rgba(216, 210, 210, 0.397), rgba(163, 165, 163, 0.527), rgba(109, 220, 228, 0.438)); */
+    }
+
+    a:active {
+        color: yellow;
+    }
+
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #000000ab;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 80%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px solid rgb(1, 97, 1);
+        border-radius: 4px;
+        box-shadow: 0px 12px 20px 2px black;
+        cursor: pointer;
+        margin-left: 10%;
+    }
+
+    input[type=submit]:hover {
+        background-color: #216824;
+    }
+
+
+    /*<------------------Header for everypage-------------------->*/
+
+    #headerforeverypage {
+        display: block;
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .uninamelogo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(22, 223, 223, 0.534);
+    }
+
+    .unilogo {
+        margin-left: 20px;
+        margin-top: 2px;
+    }
+
+    .unilogoImage {
+        border: 1px solid black;
+        height: 25px;
+        width: 25px;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .universitynameandlogo {
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colgname {
+        border: 1px solid black;
+        background: rgba(54, 243, 110, 0.849);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .department {
+        border: 1px solid black;
+        background: rgba(63, 151, 233, 0.425);
+        align-items: center;
+        font-size: 5.5vw;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*<------------------End of Header for everypage-------------------->*/
+
+    /*<------------------Side bar---------------------------------> */
+
+    .navbar {
+        border: 2px solid black;
+        display: flex;
+        width: 99%;
+        height: 40px;
+        padding-left: 1%;
+        align-items: center;
+        justify-content: start;
+        background: #282A35;
+    }
+
+    .optionLogo {
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+    .optionLogoImage {
+        width: 3vh;
+        height: 3vh;
+    }
+
+    .HomeLogoImage {
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .homebtn {
+        color: rgb(0, 0, 0);
+        width: 130%;
+        margin-right: 1%;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .studentdetail {
+        color: black;
+        width: 100%;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .studentcorner {
+        color: black;
+        width: 100%;
+        height: 37px;
+        border-radius: 10px;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    .tabwithlogo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 20%;
+        margin: 0 1% 0 0;
+        cursor: pointer;
+    }
+
+    /* .sidebarchild {
+        background-color: aliceblue;
+        border: 2px solid black;
+        display: inline-flex;
+        width: 80%;
+        min-height: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    } */
+
+    .Logout {
+        color: black;
+        position: relative;
+        width: 10%;
+        height: 90%;
+        background-color: #ffd902;
+        border-radius: 10px;
+        left: 25%;
+        font-size: 2.3vw;
+        cursor: pointer;
+    }
+
+    /*   Student corner drop down*/
+    /* .dropbtn {
+        background-color: #046daa;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 8px;
+        font-size: 16px;
+        margin-left: 5%;
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    } */
+
+    .dropdown {
+        position: fixed;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .dropdown-content li {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #7e7b7b9d;
+        background: rgba(255, 255, 255, 0.562);
+        width: 15%;
+        margin-top: 2px;
+        padding: 1px;
+        border-radius: 8px;
+        box-shadow: -1px 5px 15px 1px rgb(0 0 0 / 27%);
+        z-index: 5;
+        cursor: pointer;
+        margin-left: 20%;
+        font-weight: bold;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        margin-left: 36px;
+    }
+
+    .dropdown-content a {
+        color: black;
+        background: rgb(255, 255, 255);
+        padding: 2%;
+        width: 100%;
+        text-decoration: none;
+        box-shadow: 1px 5px 15px 1px rgb(0 0 0 / 27%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .dropdown-content a:hover {
+        background: #62baea80;
+        cursor: pointer;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block
+    }
+
+    .dropdown:hover .dropbtn {
+        cursor: pointer;
+        background-color: #ffc400d7;
+        color: black;
+    }
+
+    /* <----------------base for every page--------------------> */
+
+    .baseforeverypage {
+        display: flex;
+    }
+
+    /* <----------------End base for everypage--------------------> */
+
+    /* <--------------------Main Frame Pages---------------------->  */
+    .mainframe {
+        border: 2px solid black;
+        margin-top: 1%;
+        padding: 1%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        min-width: 90%;
+        height: 60%;
+        justify-content: space-between;
+        align-items: self-start;
+        margin-bottom: 2%;
+        background-color: #f7f5f5;
+        backdrop-filter: blur(50px);
+    }
+
+
+    /* <--------------------End of Main Frame Pages---------------------->  */
+
+    /*<---------------------Footer part for every Page--------------------->*/
+
+    #footerforeverypage {
+        display: flex;
+        position: sticky;
+        position: fixed;
+        position: static;
+        width: 100%;
+        font-weight: bold;
+        height: 10vh;
+        background-color: #1f2c38;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        font-size: 3.5vw;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usefullinks {
+        border: 2px solid red;
+        display: flex;
+        border-radius: 5px;
+        margin: 1%;
+        width: 50%;
+        min-height: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: #0fdb6bd5;
+    }
+
+    /*<---------------------End of Footer part for every Page--------------------->*/
+
+
+
+    /*<--------------Circular--------------->*/
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .circularsbase {
+        display: flex;
+        width: 96%;
+        min-height: 80%;
+        margin-left: 2%;
+        /* border: 2px solid black; */
+        border-radius: 12px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .internalcircular {
+        width: 50%;
+        margin: 1%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+        list-style: none;
+    }
+
+    .internalcircular li {
+        list-style: none;
+    }
+
+    .internalcircularhead {
+        width: 90%;
+        font-size: 3.5vw;
+        min-height: 60px;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        display: flex;
+        height: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    .extrnalcircular {
+        width: 50%;
+        margin: 1% 1% 1% 0%;
+        background-color: wheat;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .extrnalcircular li {
+        list-style: none;
+    }
+
+    .externalcircularhead {
+        width: 90%;
+        margin-bottom: 1%;
+        min-height: 60px;
+        font-size: 3.5vw;
+        background-color: rgba(19, 235, 235, 0.788);
+        border-radius: 10px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        height: 20%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(92, 91, 91, 0.5);
+    }
+
+    hr {
+        border: 1px solid rgb(117, 116, 116);
+    }
+
+    .circulartagdetailing {
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 97%;
+        min-height: 35px;
+        text-align: center;
+        background: rgba(15, 235, 132, 0.589);
+        margin: 1%;
+    }
+
+    a:-webkit-any-link {
+        color: black;
+        text-decoration: none;
+    }
+
+    /* .list-detailing {} */
+
+    /*<--------------End Circular--------------->*/
+    .subtabsNotice {
+        /* border: 2px solid black; */
+        display: flex;
+        width: 98%;
+        min-height: 450px;
+        max-height: 600px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .departmentnotices {
+        background: #dbdbdb54;
+        padding: 3px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        width: 45%;
+        margin: 0 1% 1% 1%;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .departmentrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        font-size: 4vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    .placementrelatedNotice {
+        width: 45%;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .placementrelatedNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        font-size: 3.8vw;
+        text-align: center;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+    hr {
+        position: relative;
+        margin-top: 2%;
+        border: none;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.377);
+        box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.637);
+        margin-bottom: 5%;
+    }
+
+    .resultrelatedNotices {
+        width: 45%;
+        /* margin-top: 1%; */
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: #dbdbdb54;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3px;
+        border-radius: 10px;
+        margin: 0% 1% 1% 0;
+        max-height: 99%;
+        overflow: auto;
+    }
+
+    .resultofplacementNoticehead {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        width: 30.3%;
+        height: 10%;
+        text-align: center;
+        font-size: 3.8vw;
+        border: 2px solid black;
+        background: #1d1e25;
+        color: white;
+        border-radius: 7px;
+        margin: -5px;
+    }
+
+
+    .subclassofnotice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 6%;
+        text-align: center;
+        font-size: 2.5vw;
+        margin: 5px;
+        border: 1px solid rgba(18, 107, 110, 0.61);
+        background: linear-gradient(45deg, rgb(197, 194, 194), rgba(153, 241, 227, 0.589), rgb(249, 249, 250));
+        border-radius: 10px;
+    }
+
+    .detailing-of-notices {
+        display: block;
+        margin-top: 84%;
+    }
+
+}

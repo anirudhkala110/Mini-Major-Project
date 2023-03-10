@@ -1,0 +1,59 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="/static/CSS/Home.css">
+        <link rel="stylesheet" href="/static/CSS/courseallotment.css">
+        <link rel="stylesheet" href="/static/CSS/timetablemainpage.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student-Corner-Home-Page</title>
+    </head>
+    <body>
+        <div id="headerforeverypage">
+                <div class="uninamelogo">
+                    <div class="unilogo">
+                        <a href=""> <img src="/Media/Images/Pantnagar_logo.jpg" alt=""
+                                class="unilogoImage">
+                        </a>
+                    </div>
+                    <div class="universitynameandlogo">Govind Ballabh Pant
+                        University of
+                        Acgriculture and technology</div>
+                </div>
+                <div class="colgname">College of Technology</div>
+                <div class="department">Information Technology</div>
+            </div>
+        <span>
+        <div class="navbar">
+                    <div class="tabwithlogo">
+                        <div class="homeimage">
+                            <a href=" {% url 'homepage' %} "><img src="/Media/Images/home.png"
+                                    class="HomeLogoImage" alt=""></a>
+                        </div>
+                        <a href=" {% url 'homepage' %} "> <button class="homebtn" type="submit">Home</button></a>
+                    </div>
+                
+                    <div class="tabwithlogo">
+                        <div class="homeimage ">
+                            <img   src="/Media/Images/circular.png" class="HomeLogoImage" alt="">
+                        </div>
+                            <button class="studentcorner" id="studentcornerbtn" type="submit">Student Corner</button>
+                </div>
+                    <div class="tabwithlogo">
+                        <div class="homeimage">
+                            <a href="#"><img
+                                    src="/Media/Images/coursemanagement.png"
+                                    class="HomeLogoImage" alt=""></a>
+                        </div>
+                        <button class="studentdetail">Student Details</button>
+                    </div>
+                
+                <button class="Logout">Logout</button>
+            </div>
+        </span>
+        <ul id="dropdownitems" class="dropdown-content">
+                                <li><a href="{% url 'Notice_Homepage' %}">Notices</a></li>
+                                <li><a href="{% url 'Circular_Homepage' %}"> Circulars</a></li>
+                                <li><a href="{% url 'TimeTable_Homepage' %}">Time Table</a></li>
+                                <li><a href="{% url 'CourseAllotment_Homepage' %}">Course Allotment</a></li>
+       </ul>

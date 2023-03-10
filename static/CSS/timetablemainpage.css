@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+
+*::after,
+*::before {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#heading {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background: #51c0d973;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: -webkit-center;
+    margin-top: 8%;
+    height: 10%;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+.sessiontforimetable {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.semesterfortimetable {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.departmentfortimetable {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.yearfortimetable {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.secondyr input[type=text] {
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    height: 100px;
+    font-size: 2vw;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.thirdyr input[type=text] {
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2vw;
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.finalyr input[type=text] {
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    height: 100px;
+    font-size: 2vw;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* .timetable-dropdown {
+    border: 2px solid rgb(0, 81, 255);
+    display: block;
+    text-align: center;
+    margin: 5%;
+    height: 30%;
+    line-height: 10%;
+} */
+
+.timetable-dropdown button {
+    border: 2px solid #686666a8;
+    background: #ccc0c033;
+    height: 75px;
+    font-size: 2vw;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.timetable-dropdown button:hover {
+    border: 2px solid #0077ff60;
+    background: #0077ff60;
+    height: 75px;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10%;
+    cursor: pointer;
+}

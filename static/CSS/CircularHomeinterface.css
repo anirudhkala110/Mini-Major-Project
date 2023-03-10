@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.circularsbase {
+    display: flex;
+    width: 96%;
+    min-height: 80%;
+    margin-left: 2%;
+    /* border: 2px solid black; */
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.internalcircular {
+    width: 50%;
+    margin: 1%;
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.internalcircular li {
+    list-style: none;
+}
+
+.internalcircularhead {
+    width: 90%;
+    font-size: 3.5vw;
+    min-height: 60px;
+    background-color: rgba(19, 235, 235, 0.788);
+    border-radius: 10px;
+    display: flex;
+    height: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgba(92, 91, 91, 0.5);
+}
+
+.extrnalcircular {
+    width: 50%;
+    margin: 1% 1% 1% 0%;
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.extrnalcircular li {
+    list-style: none;
+}
+
+.externalcircularhead {
+    width: 90%;
+    margin-bottom: 1%;
+    min-height: 60px;
+    font-size: 3.5vw;
+    background-color: rgba(19, 235, 235, 0.788);
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(92, 91, 91, 0.5);
+}
+
+hr {
+    border: 1px solid rgb(117, 116, 116);
+}
+
+.circulartagdetailing {
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 97%;
+    min-height: 35px;
+    text-align: center;
+    background: rgba(15, 235, 132, 0.589);
+    margin: 1%;
+}
+
+a:-webkit-any-link {
+    color: black;
+    text-decoration: none;
+}

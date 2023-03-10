@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+            {% block content %}
+        <div class="baseforeverypage">
+            <div class="mainframe">
+                <div class="notice-tab">
+                    <a href="{% url 'Notice_Homepage' %}"> <button>Notices</button> </a>
+                </div>
+                <div class="courseallotment-tab">
+                    <a href="{% url 'CourseAllotment_Homepage' %}"><button>Course Allotment</button></a> 
+                </div>
+                <div class="time-table-tab">
+                    <a href="{% url 'TimeTable_Homepage' %}"><button>Time Table</button></a> 
+                </div>
+                <div class="circular-tab">
+                    <a href="{% url 'Circular_Homepage' %}"> <button>Circulars</button></a>
+                </div>
+            </div>
+        </div>
+        <script src="/static/JS/script.js"></script>
+        {% endblock %}
+    </body>
+</html>
